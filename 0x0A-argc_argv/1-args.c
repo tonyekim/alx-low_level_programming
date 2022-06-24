@@ -10,12 +10,8 @@
 
 int main(int argc, __attribute__((unused)) char *arg[])
 {
-	int i;
+	if (argc > 0)
 
-	for(i = 0; i < argc; i++)
-	{
-	}
-
-	printf("%d\n", i -1);
+		printf("%d\n", argc -1);
 	return (0);
 }
